@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { LayoutDashboard, FileText, Truck, ClipboardList, BarChart3, Settings, Recycle } from "lucide-react";
+import { LayoutDashboard, FileText, Truck, ClipboardList, BarChart3, Settings, Recycle, Bell } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -18,6 +18,7 @@ const navigation = [
   { title: "Vehicle Management", url: "/vehicle-management", icon: Truck },
   { title: "Collection Requests", url: "/collection-requests", icon: ClipboardList },
   { title: "Analytics", url: "/analytics", icon: BarChart3 },
+  { title: "Notification Alert", url: "/notification-alert", icon: Bell },
   { title: "Settings", url: "/settings", icon: Settings },
 ];
 
